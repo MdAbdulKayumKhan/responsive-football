@@ -165,3 +165,72 @@
     color: #000000;
 }
 
+/* Media quaries for mobile devices */
+@media only screen and (max-width:688px) {
+    /* utilities */
+    .header-menu, .copa-america-poster, .copa-america-players {
+        width: 100%;
+    }
+/* nav styles */
+    .login-button{ 
+        margin-left: 45%;
+    }
+    .login-button a{
+        margin: 46px 0px;
+        padding-top: 5px;
+        width: 90px;
+        height: 30px;
+        padding-left: 15px;
+
+
+    }
+    /* top-poster section styles */
+    .tournament{
+        align-items: flex-start;
+        flex-direction: column;
+        padding-left: 16px;
+    }
+    .tournament-title h1{
+        width: 278px;
+        height: 138px;
+        font-size: 36px;
+
+    }
+    .tournament-thumbnail img {
+        width: 330px;
+        height: 260px;
+        padding-left: 5%;
+        padding-top: 10%;
+    }
+
+    /* players styles */
+
+    .players{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /* footer section styles */
+     .copa-america-footer{
+        
+    }
+    .footer-logo img {
+        width: 272px;
+        height: 65px;
+        margin-top: 40px;
+    }
+    .social-icons {
+        margin-top: 29px;
+        margin-bottom: 20px;
+    }
+    .fab{
+        width: 25px;
+        height: 25px;
+        font-size: 31px;
+        margin-right: 10px;
+    }
+    .copy-right p{
+        margin-bottom: 180px;
+    }
+
+}
+
