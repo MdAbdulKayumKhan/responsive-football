@@ -9,13 +9,18 @@
 
 }
 .container{
-    width: 1440px;
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /* header styles */
-.copa-america-poster{  
+.copa-america-poster{ 
+    width: 1440px; 
     height: 677px;
     background-color: #2D25A0;
+    margin-bottom: 70px;
 }
 .tournament{
     display: flex;
@@ -50,6 +55,9 @@
     Padding: 10px 24px 10px 24px;
 
 }
+.fa-long-arrow-alt-right{
+    margin-left: 10px;
+}
 /* add animation */
 .tournament-thumbnail img:hover{
     transition: transform 5s;
@@ -59,3 +67,49 @@
     width: 556px;
     height: 438px;   
 }
+
+/* ------------
+    players styles
+---------------*/
+.copa-america-players{
+    width: 1440px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10%;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap:30px;
+    grid-row-gap: 27px;
+}
+.player{
+    border: 1px solid #FFFFFF;
+    width: 330px;
+    height: 474px;
+    padding: 15px 15px 33px 15px;
+    box-shadow: 1px 1px 15px;
+}
+.player img{
+    width: 315px;
+    height: 256px;
+} 
+.player h2{
+    font-size: 20px;
+}
+.player-info{
+    margin: 5px;
+}
+.player-info h2{
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 16px;
+    margin-bottom: 10px;
+
+}
+.player-info p{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/*  */
