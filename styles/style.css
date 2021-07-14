@@ -14,8 +14,32 @@
     justify-content: center;
     align-items: center;
 }
+/* Header-nav styles */
+.header-menu{
+    width: 1440px; 
+    background-color: #2D25A0;
+}
+.login-button{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 60%;
+}
+.login-button a{
+    color: white;
+    width: 120px;
+    height: 40px;
+    padding-left: 30px;
+    text-decoration: none;
+    background-color: #E02C6D;
+    margin: 49px 0px;
+    padding-top: 16px;
+}
+.login-button i{
+    margin-right: 8px;
+}
 
-/* header styles */
+
+/* Top section or copa-america-poster styles */
 .copa-america-poster{ 
     width: 1440px; 
     height: 677px;
