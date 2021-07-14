@@ -88,7 +88,8 @@
     width: 330px;
     height: 474px;
     padding: 15px 15px 33px 15px;
-    box-shadow: 1px 1px 15px;
+    /* box-shadow: 1px 1px 15px; */
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
 }
 .player img{
     width: 315px;
@@ -112,4 +113,31 @@
     font-weight: 400;
 }
 
-/*  */
+/* footer styles  */
+.footer-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 63px;
+}
+.footer-logo img{
+    width: 483px;
+    height: 110px;
+}
+.social-icons{
+    margin: 20px 0px;
+}
+.fab{
+    width: 32px;
+    height: 32px;
+    font-size: 40px;
+    margin-right: 14px;
+    color: #10437A;
+}
+.copy-right p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #000000;
+}
+
